@@ -1,24 +1,30 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    addressable (2.2.6)
-    heroku (2.16.1)
+    addressable (2.3.5)
+    excon (0.31.0)
+    heroku (3.2.2)
+      heroku-api (~> 0.3.7)
       launchy (>= 0.3.2)
+      netrc (~> 0.7.7)
       rest-client (~> 1.6.1)
       rubyzip
-      term-ansicolor (~> 1.0.5)
-    launchy (2.0.5)
-      addressable (~> 2.2.6)
-    mime-types (1.17.2)
-    rack-rewrite (1.2.1)
+    heroku-api (0.3.16)
+      excon (~> 0.27)
+      multi_json (~> 1.8.2)
+    launchy (2.4.2)
+      addressable (~> 2.3)
+    mime-types (2.0)
+    multi_json (1.8.2)
+    netrc (0.7.7)
+    rack-rewrite (1.4.01)
     rest-client (1.6.7)
       mime-types (>= 1.16)
-    rubyzip (0.9.5)
-    term-ansicolor (1.0.7)
+    rubyzip (1.1.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   heroku
-  rack-rewrite (~> 1.2.1)
+  rack-rewrite

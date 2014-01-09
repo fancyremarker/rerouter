@@ -1,5 +1,8 @@
 # Rerouter
 
+[![Dependency Status](https://gemnasium.com/fancyremarker/rerouter.png)](https://gemnasium.com/fancyremarker/rerouter)
+
+
 A minimal, Rack-based domain redirecter. Generates 301 redirects for subdomains under macreery.com and (potentially) other TLDs. Functionally identical to @joeyAghion's [implementation](/joeyAghion/rerouter), this repo differs in that the redirect configuration is stored in the repository instead of in Heroku environment variables.
 
 ## Deployment to Heroku
